@@ -1,0 +1,17 @@
+D:\.net projects\MyBlog\MyBlog.core\bin\Debug\net8.0\MyBlog.core.deps.json
+D:\.net projects\MyBlog\MyBlog.core\bin\Debug\net8.0\MyBlog.core.dll
+D:\.net projects\MyBlog\MyBlog.core\bin\Debug\net8.0\MyBlog.core.pdb
+D:\.net projects\MyBlog\MyBlog.core\bin\Debug\net8.0\MyBlog.domain.dll
+D:\.net projects\MyBlog\MyBlog.core\bin\Debug\net8.0\MyBlog.infrastructure.dll
+D:\.net projects\MyBlog\MyBlog.core\bin\Debug\net8.0\MyBlog.domain.pdb
+D:\.net projects\MyBlog\MyBlog.core\bin\Debug\net8.0\MyBlog.infrastructure.pdb
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.csproj.AssemblyReference.cache
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.AssemblyInfoInputs.cache
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.AssemblyInfo.cs
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.csproj.CoreCompileInputs.cache
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.c.15BD4E0A.Up2Date
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.dll
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\refint\MyBlog.core.dll
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.pdb
+D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\ref\MyBlog.core.dll
