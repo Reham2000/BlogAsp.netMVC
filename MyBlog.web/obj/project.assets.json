@@ -12031,23 +12031,29 @@
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 9.0.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
-      "MyBlog.core >= 1.0.0"
+      "MyBlog.core >= 1.0.0",
+      "MyBlog.domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net projects\\MyBlog\\MyBlog.web\\MyBlog.web.csproj",
+      "projectUniqueName": "E:\\BlogAsp.netMVC\\MyBlog.web\\MyBlog.web.csproj",
       "projectName": "MyBlog.web",
-      "projectPath": "D:\\.net projects\\MyBlog\\MyBlog.web\\MyBlog.web.csproj",
+      "projectPath": "E:\\BlogAsp.netMVC\\MyBlog.web\\MyBlog.web.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\.net projects\\MyBlog\\MyBlog.web\\obj\\",
+      "outputPath": "E:\\BlogAsp.netMVC\\MyBlog.web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12061,8 +12067,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\.net projects\\MyBlog\\MyBlog.core\\MyBlog.core.csproj": {
-              "projectPath": "D:\\.net projects\\MyBlog\\MyBlog.core\\MyBlog.core.csproj"
+            "E:\\BlogAsp.netMVC\\MyBlog.core\\MyBlog.core.csproj": {
+              "projectPath": "E:\\BlogAsp.netMVC\\MyBlog.core\\MyBlog.core.csproj"
+            },
+            "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {
+              "projectPath": "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj"
             }
           }
         }
@@ -12076,7 +12085,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -12112,7 +12122,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

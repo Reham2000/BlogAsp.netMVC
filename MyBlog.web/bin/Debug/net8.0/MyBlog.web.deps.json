@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "9.0.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
-          "MyBlog.core": "1.0.0"
+          "MyBlog.core": "1.0.0",
+          "MyBlog.domain": "1.0.0"
         },
         "runtime": {
           "MyBlog.web.dll": {}
@@ -2692,12 +2693,18 @@
           "MyBlog.infrastructure": "1.0.0"
         },
         "runtime": {
-          "MyBlog.core.dll": {}
+          "MyBlog.core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "MyBlog.domain/1.0.0": {
         "runtime": {
-          "MyBlog.domain.dll": {}
+          "MyBlog.domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "MyBlog.infrastructure/1.0.0": {
@@ -2707,7 +2714,10 @@
           "MyBlog.domain": "1.0.0"
         },
         "runtime": {
-          "MyBlog.infrastructure.dll": {}
+          "MyBlog.infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

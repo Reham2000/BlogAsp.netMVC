@@ -1686,7 +1686,10 @@
       },
       "MyBlog.domain/1.0.0": {
         "runtime": {
-          "MyBlog.domain.dll": {}
+          "MyBlog.domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

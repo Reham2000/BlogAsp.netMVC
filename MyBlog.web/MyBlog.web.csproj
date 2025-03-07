@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyBlog.core\MyBlog.core.csproj" />
+    <ProjectReference Include="..\MyBlog.domain\MyBlog.domain.csproj" />
   </ItemGroup>
 
 </Project>

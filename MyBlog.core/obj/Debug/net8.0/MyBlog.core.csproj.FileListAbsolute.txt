@@ -15,3 +15,21 @@ D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.dll
 D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\refint\MyBlog.core.dll
 D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\MyBlog.core.pdb
 D:\.net projects\MyBlog\MyBlog.core\obj\Debug\net8.0\ref\MyBlog.core.dll
+E:\BlogAsp.netMVC\MyBlog.core\bin\Debug\net8.0\MyBlog.core.deps.json
+E:\BlogAsp.netMVC\MyBlog.core\bin\Debug\net8.0\MyBlog.core.dll
+E:\BlogAsp.netMVC\MyBlog.core\bin\Debug\net8.0\MyBlog.core.pdb
+E:\BlogAsp.netMVC\MyBlog.core\bin\Debug\net8.0\MyBlog.domain.dll
+E:\BlogAsp.netMVC\MyBlog.core\bin\Debug\net8.0\MyBlog.infrastructure.dll
+E:\BlogAsp.netMVC\MyBlog.core\bin\Debug\net8.0\MyBlog.domain.pdb
+E:\BlogAsp.netMVC\MyBlog.core\bin\Debug\net8.0\MyBlog.infrastructure.pdb
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.core.csproj.AssemblyReference.cache
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.core.GeneratedMSBuildEditorConfig.editorconfig
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.core.AssemblyInfoInputs.cache
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.core.AssemblyInfo.cs
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.core.csproj.CoreCompileInputs.cache
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.core.sourcelink.json
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.c.15BD4E0A.Up2Date
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.core.dll
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\refint\MyBlog.core.dll
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\MyBlog.core.pdb
+E:\BlogAsp.netMVC\MyBlog.core\obj\Debug\net8.0\ref\MyBlog.core.dll

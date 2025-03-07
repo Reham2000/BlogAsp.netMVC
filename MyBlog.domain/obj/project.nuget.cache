@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+o3/JUMj+fEcNDbBC05IyAb9+NWWfYNVEZhqe9gOKmRtBUV8i9oPM9qpYTckg7BI+OE0G2szp2TAxVDioyLeQ==",
+  "dgSpecHash": "9d1oFBMUew0=",
   "success": true,
-  "projectFilePath": "D:\\.net projects\\MyBlog\\MyBlog.domain\\MyBlog.domain.csproj",
+  "projectFilePath": "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

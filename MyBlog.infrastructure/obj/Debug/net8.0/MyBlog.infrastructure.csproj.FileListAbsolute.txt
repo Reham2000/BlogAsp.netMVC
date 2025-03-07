@@ -15,3 +15,21 @@ D:\.net projects\MyBlog\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastruc
 D:\.net projects\MyBlog\MyBlog.infrastructure\obj\Debug\net8.0\ref\MyBlog.infrastructure.dll
 D:\.net projects\MyBlog\MyBlog.infrastructure\bin\Debug\net8.0\MyBlog.infrastructure.runtimeconfig.json
 D:\.net projects\MyBlog\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.genruntimeconfig.cache
+E:\BlogAsp.netMVC\MyBlog.infrastructure\bin\Debug\net8.0\MyBlog.infrastructure.deps.json
+E:\BlogAsp.netMVC\MyBlog.infrastructure\bin\Debug\net8.0\MyBlog.infrastructure.runtimeconfig.json
+E:\BlogAsp.netMVC\MyBlog.infrastructure\bin\Debug\net8.0\MyBlog.infrastructure.dll
+E:\BlogAsp.netMVC\MyBlog.infrastructure\bin\Debug\net8.0\MyBlog.infrastructure.pdb
+E:\BlogAsp.netMVC\MyBlog.infrastructure\bin\Debug\net8.0\MyBlog.domain.dll
+E:\BlogAsp.netMVC\MyBlog.infrastructure\bin\Debug\net8.0\MyBlog.domain.pdb
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.csproj.AssemblyReference.cache
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.AssemblyInfoInputs.cache
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.AssemblyInfo.cs
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.csproj.CoreCompileInputs.cache
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.sourcelink.json
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.i.9525958A.Up2Date
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.dll
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\refint\MyBlog.infrastructure.dll
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.pdb
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\MyBlog.infrastructure.genruntimeconfig.cache
+E:\BlogAsp.netMVC\MyBlog.infrastructure\obj\Debug\net8.0\ref\MyBlog.infrastructure.dll

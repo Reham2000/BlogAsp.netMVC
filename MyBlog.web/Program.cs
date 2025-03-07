@@ -13,7 +13,14 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
     ));
 
 builder.Services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
+// one object for one requests of the same type
 builder.Services.AddScoped<PostServices>();
+// new object for each request
+//builder.Services.AddTransient<PostServices>();
+// one object for all requests
+//builder.Services.AddSingleton<PostServices>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

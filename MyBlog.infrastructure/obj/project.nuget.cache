@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wyPSzO3ogFu7COzmhTkr8Kw0I327d5fwDif+H30wDn8udy7tWiKo3MVn2B5KdG5cePWDmnfpgufuQYe3Q9E96Q==",
+  "dgSpecHash": "nrVZz/o9z84=",
   "success": true,
-  "projectFilePath": "D:\\.net projects\\MyBlog\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj",
+  "projectFilePath": "E:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
