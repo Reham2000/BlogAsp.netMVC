@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "E:\\BlogAsp.netMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89E25474-D009-4FC2-92FF-9F92E97DBA03}|MyBlog.domain\\MyBlog.domain.csproj|e:\\blogasp.netmvc\\myblog.domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89E25474-D009-4FC2-92FF-9F92E97DBA03}|MyBlog.domain\\MyBlog.domain.csproj|solutionrelative:myblog.domain\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\views\\shared\\_theme1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\views\\shared\\_theme1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\views\\post\\allposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\views\\post\\allposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\views\\post\\posts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\views\\post\\posts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D439CFE-B80C-4F9C-8085-278DF30AC2CE}|MyBlog.infrastructure\\MyBlog.infrastructure.csproj|e:\\blogasp.netmvc\\myblog.infrastructure\\migrations\\20250307122530_updateposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D439CFE-B80C-4F9C-8085-278DF30AC2CE}|MyBlog.infrastructure\\MyBlog.infrastructure.csproj|solutionrelative:myblog.infrastructure\\migrations\\20250307122530_updateposts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|e:\\blogasp.netmvc\\myblog.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E73DD8DE-9B9C-4998-88EE-F34A4C262FD0}|MyBlog.web\\MyBlog.web.csproj|solutionrelative:myblog.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,45 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 167,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AllPosts.cshtml",
-              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\AllPosts.cshtml",
-              "RelativeDocumentMoniker": "MyBlog.web\\Views\\Post\\AllPosts.cshtml",
-              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\AllPosts.cshtml",
-              "RelativeToolTip": "MyBlog.web\\Views\\Post\\AllPosts.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T12:55:03.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Edit.cshtml",
-              "RelativeDocumentMoniker": "MyBlog.web\\Views\\Post\\Edit.cshtml",
-              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Edit.cshtml",
-              "RelativeToolTip": "MyBlog.web\\Views\\Post\\Edit.cshtml",
-              "ViewState": "AgIAAAQAAACgmZmZmZknwA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T12:50:31.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\appsettings.json",
-              "RelativeDocumentMoniker": "MyBlog.web\\appsettings.json",
-              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\appsettings.json",
-              "RelativeToolTip": "MyBlog.web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-07T12:43:03.212Z",
+              "DocumentIndex": 0,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "MyBlog.web\\Controllers\\PostController.cs",
+              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Controllers\\PostController.cs*",
+              "RelativeToolTip": "MyBlog.web\\Controllers\\PostController.cs*",
+              "ViewState": "AgIAABoAAABAMzMzMzM6wCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:12:40.736Z",
               "EditorCaption": ""
             },
             {
@@ -91,61 +57,61 @@
               "RelativeDocumentMoniker": "MyBlog.web\\Views\\Post\\Create.cshtml",
               "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Create.cshtml",
               "RelativeToolTip": "MyBlog.web\\Views\\Post\\Create.cshtml",
-              "ViewState": "AgIAABsAAACAZmZmZmYkwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAzczMzMwEwFIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T12:39:14.591Z",
+              "WhenOpened": "2025-03-14T14:57:15.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250307122530_updatePosts.cs",
-              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.infrastructure\\Migrations\\20250307122530_updatePosts.cs",
-              "RelativeDocumentMoniker": "MyBlog.infrastructure\\Migrations\\20250307122530_updatePosts.cs",
-              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.infrastructure\\Migrations\\20250307122530_updatePosts.cs",
-              "RelativeToolTip": "MyBlog.infrastructure\\Migrations\\20250307122530_updatePosts.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T12:25:31.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Post.cs",
-              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.domain\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "MyBlog.domain\\Models\\Post.cs",
-              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.domain\\Models\\Post.cs",
-              "RelativeToolTip": "MyBlog.domain\\Models\\Post.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T12:17:10.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Add.cshtml",
-              "RelativeDocumentMoniker": "MyBlog.web\\Views\\Post\\Add.cshtml",
-              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Add.cshtml*",
-              "RelativeToolTip": "MyBlog.web\\Views\\Post\\Add.cshtml*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Posts.cshtml",
+              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Posts.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.web\\Views\\Post\\Posts.cshtml",
+              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Posts.cshtml",
+              "RelativeToolTip": "MyBlog.web\\Views\\Post\\Posts.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwEgAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T12:11:48.469Z",
+              "WhenOpened": "2025-03-14T14:38:49.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "MyBlog.web\\Controllers\\PostController.cs",
-              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Controllers\\PostController.cs",
-              "RelativeToolTip": "MyBlog.web\\Controllers\\PostController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAADQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T12:08:55.944Z",
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Add.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.web\\Views\\Post\\Add.cshtml",
+              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Post\\Add.cshtml",
+              "RelativeToolTip": "MyBlog.web\\Views\\Post\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T14:32:34.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MyBlog.web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T14:24:08.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Theme1.cshtml",
+              "DocumentMoniker": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Shared\\_Theme1.cshtml",
+              "RelativeDocumentMoniker": "MyBlog.web\\Views\\Shared\\_Theme1.cshtml",
+              "ToolTip": "E:\\BlogAsp.netMVC\\MyBlog.web\\Views\\Shared\\_Theme1.cshtml",
+              "RelativeToolTip": "MyBlog.web\\Views\\Shared\\_Theme1.cshtml",
+              "ViewState": "AgIAAJ4AAAAAZmZmZmYkwJ8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T14:19:32.422Z",
               "EditorCaption": ""
             }
           ]

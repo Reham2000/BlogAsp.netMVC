@@ -1,47 +1,105 @@
-﻿@model IEnumerable<MyBlog.domain.Models.Post>
+﻿@* @model IEnumerable<MyBlog.domain.Models.Post> *@
 
-@{
-    ViewData["Title"] = "Posts";
-}
+@* @{ *@
+@*     ViewData["Title"] = "Posts"; *@
+@* } *@
 
-<h1>Posts</h1>
+@* <h1>Posts</h1> *@
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Content)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Content)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+@* <p> *@
+@*     <a asp-action="Create">Create New</a> *@
+@* </p> *@
+@* <table class="table"> *@
+@*     <thead> *@
+@*         <tr> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.Title) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.Content) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.CreatedAt) *@
+@*             </th> *@
+@*             <th></th> *@
+@*         </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@* @foreach (var item in Model) { *@
+@*         <tr> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.Title) *@
+@*             </td> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.Content) *@
+@*             </td> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.CreatedAt) *@
+@*             </td> *@
+@*             <td> *@
+@*                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> | *@
+@*                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> | *@
+@*                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
+@*             </td> *@
+@*         </tr> *@
+@* } *@
+@*     </tbody> *@
+@* </table> *@
+
+
+@model IEnumerable<MyBlog.domain.Models.Post>
+
+<!-- Latest Posts Section -->
+<section id="latest-posts" class="latest-posts section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Latest Posts</h2>
+        <div><span>Check Our</span> <span class="description-title">Latest Posts</span></div>
+    </div><!-- End Section Title -->
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <a asp-action="Create" class="btn btn-primary my-3">Create Post</a>
+        <div class="row gy-4">
+            @foreach(var post in Model)
+            {
+                
+                <div class="col-lg-4">
+                <article>
+
+                    <div class="post-img position-relative">
+                        <img src="~/assets/img/blog/blog-post-1.webp" alt="" class="img-fluid">
+                        <div class="position-absolute top-0 end-0 m-2">
+                                <a asp-action="Edit" asp-route-id="@post.Id" class="btn btn-warning text-light"><i class="bi bi-pencil"></i></a>
+                                <a asp-action="Delete" asp-route-id="@post.Id" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                        </div>
+
+                    </div>
+
+                    @* <p class="post-category">Politics</p> *@
+
+                    <h2 class="title">
+                        <a href="blog-details.html">@post.Title</a>
+                    </h2>
+                    <p>@post.Content</p>
+                    <a asp-action="Details" asp-route-id="@post.Id" class="btn-warning my-2">More...</a>
+                    <div class="d-flex align-items-center">
+                        <img src="~/assets/img/person/person-f-12.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+                        <div class="post-meta">
+                            <p class="post-author">Maria Doe</p>
+                            <p class="post-date">
+                                @post.CreatedAt
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+            </div><!-- End post list item -->
+                
+            }
+
+            
+
+        </div>
+    </div>
+
+</section><!-- /Latest Posts Section -->

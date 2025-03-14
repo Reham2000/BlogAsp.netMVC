@@ -32,6 +32,10 @@ namespace MyBlog.web.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Post post)
         {
+            if(!ModelState.IsValid)
+            {
+                return View(post);
+            }
             await _PostServices.AddPostAsync(post);
             var posts = await _PostServices.GetAllPostsAsync();
             return View(nameof(AllPosts),posts);
@@ -63,5 +67,45 @@ namespace MyBlog.web.Controllers
             var posts = await _PostServices.GetAllPostsAsync();
             return View(nameof(AllPosts), posts);
         }
+
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var post = await _PostServices.GetPostAsync(id);
+            if(post == null)
+            {
+                //return View("~/Views/Shared/_404.cshtml");
+                return View("_404");
+            }
+            return View(post);
+        }
+        
+        public async Task<IActionResult> Delete(int id)
+        {
+            var post  = await _PostServices.GetPostAsync(id);
+            if (post is null)
+            {
+                return View("_404");
+            }
+            return View(post);
+        }
+
+        [HttpPost]
+        [ActionName("Delete")]
+        public async Task<IActionResult> DeletePost(int id)
+        {
+            if(ModelState.IsValid)
+            {
+                await _PostServices.DeletePostAsync(id);
+                var posts = await _PostServices.GetAllPostsAsync();
+                return View(nameof(AllPosts), posts);
+
+            }
+
+            var post = await _PostServices.GetPostAsync(id);
+            return View(post);
+        }
+
+
     }
 }

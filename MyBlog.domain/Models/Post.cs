@@ -17,5 +17,7 @@ namespace MyBlog.domain.Models
         [MinLength(10, ErrorMessage = "Min length is 10")]
         public string Content { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+
     }
 }
