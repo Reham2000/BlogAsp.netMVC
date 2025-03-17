@@ -15,7 +15,8 @@ namespace MyBlog.web.Controllers
 
         public async Task<IActionResult> Posts()
         {
-            var posts = await _PostServices.GetAllPostsAsync();
+            //var posts = await _PostServices.GetAllPostsAsync();
+            var posts = await _PostServices.GetAllIPostsAsync();
             return View(posts);
         }
         public async Task<IActionResult> AllPosts()

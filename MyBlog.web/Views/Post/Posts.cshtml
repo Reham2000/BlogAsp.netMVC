@@ -49,6 +49,7 @@
 
 @model IEnumerable<MyBlog.domain.Models.Post>
 
+
 <!-- Latest Posts Section -->
 <section id="latest-posts" class="latest-posts section">
 
@@ -62,7 +63,7 @@
         <div class="row gy-4">
             @foreach(var post in Model)
             {
-                
+                @post.Category.Name
                 <div class="col-lg-4">
                 <article>
 

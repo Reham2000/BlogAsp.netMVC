@@ -589,3 +589,7 @@ E:\BlogAsp.netMVC\MyBlog.web\obj\Debug\net8.0\refint\MyBlog.web.dll
 E:\BlogAsp.netMVC\MyBlog.web\obj\Debug\net8.0\MyBlog.web.pdb
 E:\BlogAsp.netMVC\MyBlog.web\obj\Debug\net8.0\MyBlog.web.genruntimeconfig.cache
 E:\BlogAsp.netMVC\MyBlog.web\obj\Debug\net8.0\ref\MyBlog.web.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\BlogAsp.netMVC\MyBlog.web\obj\Debug\net8.0\MyBlog.web.MvcApplicationPartsAssemblyInfo.cs

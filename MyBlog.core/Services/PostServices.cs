@@ -11,16 +11,21 @@ namespace MyBlog.core.Services
     public class PostServices
     {
         private readonly IRepository<Post> _postRepo;
+        private readonly IPostRepo _IpostRepo;
         private readonly Action<string> _logAction;
 
-        public PostServices(IRepository<Post> postRepo)
+        public PostServices(IRepository<Post> postRepo,IPostRepo IpostRepo)
         {
             _postRepo = postRepo;
             _logAction = message => Console.WriteLine($"LOG: {message}");
+            _IpostRepo = IpostRepo;
         }
 
 
-
+        public async Task<IEnumerable<Post>> GetAllIPostsAsync()
+        {
+            return await _IpostRepo.GetAllPosts();
+        }
 
         public async Task<IEnumerable<Post>> GetAllPostsAsync()
         {

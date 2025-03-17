@@ -21,3 +21,4 @@ E:\BlogAsp.netMVC\MyBlog.domain\obj\Debug\net8.0\MyBlog.domain.dll
 E:\BlogAsp.netMVC\MyBlog.domain\obj\Debug\net8.0\refint\MyBlog.domain.dll
 E:\BlogAsp.netMVC\MyBlog.domain\obj\Debug\net8.0\MyBlog.domain.pdb
 E:\BlogAsp.netMVC\MyBlog.domain\obj\Debug\net8.0\ref\MyBlog.domain.dll
+E:\BlogAsp.netMVC\MyBlog.domain\obj\Debug\net8.0\MyBlog.domain.csproj.AssemblyReference.cache
