@@ -48,6 +48,8 @@
 
 
 @model IEnumerable<MyBlog.domain.Models.Post>
+@inject IWebHostEnvironment _webHost
+@using System.IO
 
 
 <!-- Latest Posts Section -->
@@ -59,16 +61,40 @@
         <div><span>Check Our</span> <span class="description-title">Latest Posts</span></div>
     </div><!-- End Section Title -->
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-    <a asp-action="Create" class="btn btn-primary my-3">Create Post</a>
+        <a asp-action="Create" class="btn btn-primary my-3">Create Post</a>
+        <a asp-action="Posts" class="btn btn-secondary my-2">All</a>
+        @foreach(var category in ViewBag.Categories)
+        {
+            <a asp-action="Posts" asp-route-categoryId="@category.Id" class="btn btn-secondary my-2">@category.Name</a>
+        }
+        @if (!Model.Any())
+        {
+            <div class="alert alert-danger my-4 " role="alert">
+                <h4 class="alert-heading">No Posts Found!</h4>
+                <p>There are no posts available in this category.</p>
+                <hr>
+                <p class="mb-0">Please check back later.</p>
+            </div>
+        }
+
         <div class="row gy-4">
+
             @foreach(var post in Model)
             {
-                @post.Category.Name
-                <div class="col-lg-4">
-                <article>
 
+                <div class="col-lg-4">
+                    <article>
+                        @{
+                            var filePath = System.IO.Path.Combine(_webHost.WebRootPath, post.Image);
+
+                            if (! System.IO.File.Exists(filePath))
+                            {
+                                post.Image = "Images/default.png";
+                            }
+                            
+                        }
                     <div class="post-img position-relative">
-                        <img src="~/assets/img/blog/blog-post-1.webp" alt="" class="img-fluid">
+                        <img src="~/@post.Image" alt="img" class="img-fluid">
                         <div class="position-absolute top-0 end-0 m-2">
                                 <a asp-action="Edit" asp-route-id="@post.Id" class="btn btn-warning text-light"><i class="bi bi-pencil"></i></a>
                                 <a asp-action="Delete" asp-route-id="@post.Id" class="btn btn-danger"><i class="bi bi-trash"></i></a>
@@ -76,7 +102,7 @@
 
                     </div>
 
-                    @* <p class="post-category">Politics</p> *@
+                    <p class="post-category">@post.Category.Name</p>
 
                     <h2 class="title">
                         <a href="blog-details.html">@post.Title</a>

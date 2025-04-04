@@ -3,6 +3,7 @@ using MyBlog.infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,9 +28,12 @@ namespace MyBlog.core.Services
             return await _IpostRepo.GetAllPosts();
         }
 
-        public async Task<IEnumerable<Post>> GetAllPostsAsync()
-        {
-            return await _postRepo.GetAllAsync();
+        public async Task<IEnumerable<Post>> GetAllPostsAsync(
+            Expression<Func<Post,bool>> criteria = null, // where
+            Expression<Func<Post, object>>[] includes = null // include
+            ){
+            //return await _postRepo.GetAllAsync();
+            return await _postRepo.GetAllAsync(criteria,includes);
         }
         public async Task<Post> GetPostAsync(int id)
         {

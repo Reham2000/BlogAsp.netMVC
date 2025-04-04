@@ -20,12 +20,13 @@ namespace MyBlog.domain.Models
         [MinLength(10, ErrorMessage = "Min length is 10")]
         public string Content { get; set; }
         [ValidateNever]
-        public string Image { get; set; } // note ?
+        public string Image { get; set; } // note ? IFormFile
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
         [ValidateNever]
         public virtual Category Category { get; set; } // object
+        [ValidateNever]
         public virtual ICollection<Comment> Comments { get; set; } // collection
 
     }

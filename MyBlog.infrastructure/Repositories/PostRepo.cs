@@ -16,28 +16,28 @@ namespace MyBlog.infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<Post> GetAllPosts()
+        //public async Task<IEnumerable<Post>> GetAllPosts()
+        //{
+        //    return await _context.Posts
+        //        .Include(c => c.Category)
+        //        //.Include(c => c.Comments)
+        //        //.ThenInclude(c => c.User)
+        //        .ToListAsync();
+
+        //    //var post = await _context.Posts.FindAsync();
+
+
+
+        //    ////await _context.Entry(post).Reference(p => p.Category).LoadAsync();
+        //    ////await _context.Entry(post).Collection(p => p.Comments).LoadAsync();
+
+
+        //    //return post;
+        //}
+
+        public async Task<IEnumerable<Post>> GetAllPosts()
         {
-            //return await _context.Posts
-            //    .Include(c => c.Category)
-            //    .Include(c => c.Comments)
-            //    //.ThenInclude(c => c.User)
-            //    .ToListAsync();
-
-            var post = await _context.Posts.FindAsync();
-
-
-
-            //await _context.Entry(post).Reference(p => p.Category).LoadAsync();
-            //await _context.Entry(post).Collection(p => p.Comments).LoadAsync();
-
-
-            return post;
-        }
-
-        Task<IEnumerable<Post>> IPostRepo.GetAllPosts()
-        {
-            throw new NotImplementedException();
+            return await _context.Posts.Include(p => p.Category).ToListAsync();
         }
     }
 }

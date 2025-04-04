@@ -1,13 +1,22 @@
 ﻿@using MyBlog.domain.Models
 @model Post
+@inject IWebHostEnvironment _webHost
+@{
+    var filePath = System.IO.Path.Combine(_webHost.WebRootPath, Model.Image);
 
+    if (!System.IO.File.Exists(filePath))
+    {
+        Model.Image = "Images/default.png";
+    }
 
+}
 <h1>Edit Post</h1>
 <div class="card">
     <div class="card-header">
         Post - @Model.Id
     </div>
     <div class="card-body">
+        <img class=" w-25" src="~/@Model.Image" alt="Post Image" />
         <h5 class="card-title">@Model.Title</h5>
         <p class="card-text">@Model.Content</p>
         <a asp-action="Posts" class="btn btn-info">Go Back</a>

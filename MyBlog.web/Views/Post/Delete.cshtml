@@ -1,4 +1,14 @@
 ﻿@model MyBlog.domain.Models.Post
+@inject IWebHostEnvironment _webHost
+@{
+    var filePath = System.IO.Path.Combine(_webHost.WebRootPath, Model.Image.TrimStart('~','/'));
+
+    if (!System.IO.File.Exists(filePath))
+    {
+        Model.Image = "Images/default.png";
+    }
+
+}
 
 <div class=" row justify-content-center my-3">
     <h2>Delete Post</h2>
@@ -10,6 +20,7 @@
             Post - @Model.Id
         </div>
         <div class="card-body">
+            <img class="w-25" src="~/@Model.Image" alt="Post Image" />
             <h5 class="card-title">@Model.Title</h5>
             <p class="card-text">@Model.Content</p>
         </div>

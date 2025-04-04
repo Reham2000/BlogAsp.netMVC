@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace MyBlog.infrastructure.Repositories
 {
@@ -35,6 +36,25 @@ namespace MyBlog.infrastructure.Repositories
         public async Task<IEnumerable<T>> GetAllAsync()
         {
             return await _dbSet.ToListAsync();
+        }
+
+        public async Task<IEnumerable<T>> GetAllAsync(
+            Expression<Func<T, bool>> criteria = null, // where
+            Expression<Func<T, object>>[] includes = null)
+        {
+            IQueryable<T> query = _dbSet;
+            if (criteria is not null)
+            {
+                query = query.Where(criteria);
+            }
+            if (includes is not null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+            return await query.ToListAsync();
         }
 
         public async Task<T> GetByIdAsync(int id)

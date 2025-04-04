@@ -593,3 +593,12 @@ E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.A
 E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 E:\BlogAsp.netMVC\MyBlog.web\obj\Debug\net8.0\MyBlog.web.MvcApplicationPartsAssemblyInfo.cs
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Castle.Core.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\System.Web.Mvc.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\System.Web.Razor.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\System.Web.Helpers.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\System.Web.WebPages.dll
+E:\BlogAsp.netMVC\MyBlog.web\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

@@ -111,6 +111,8 @@ wwwroot\assets\vendor\swiper\swiper-bundle.min.js.map
 wwwroot\css\bootstrap.min (10).css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\default.png
+wwwroot\Images\Posts\5acf297f-e1cb-4777-9692-ff0fa428b592.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

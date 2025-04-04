@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MyBlog.web.8p54kb6f7h.bundle.scp.css"
     },
     {
+      "Id": "E:\\BlogAsp.netMVC\\MyBlog.web\\wwwroot\\Images\\Posts\\5acf297f-e1cb-4777-9692-ff0fa428b592.jpg",
+      "PackagePath": "staticwebassets\\Images\\Posts\\5acf297f-e1cb-4777-9692-ff0fa428b592.jpg"
+    },
+    {
+      "Id": "E:\\BlogAsp.netMVC\\MyBlog.web\\wwwroot\\Images\\default.png",
+      "PackagePath": "staticwebassets\\Images\\default.png"
+    },
+    {
       "Id": "E:\\BlogAsp.netMVC\\MyBlog.web\\wwwroot\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },

@@ -15,6 +15,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
 builder.Services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
 // one object for one requests of the same type
 builder.Services.AddScoped<PostServices>();
+builder.Services.AddScoped<CategoryServices>();
 builder.Services.AddScoped(typeof(IPostRepo),typeof(PostRepo));
 // new object for each request
 //builder.Services.AddTransient<PostServices>();
