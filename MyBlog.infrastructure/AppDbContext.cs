@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MyBlog.domain.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MyBlog.infrastructure
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<User> /*DbContext*/ 
     {
         public AppDbContext(DbContextOptions options) : base(options)
         {
@@ -18,7 +20,7 @@ namespace MyBlog.infrastructure
         public DbSet<Category> Categories { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<Comment> Comments { get; set; }
-
+        public DbSet<User> Users { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -49,6 +51,8 @@ namespace MyBlog.infrastructure
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseLazyLoadingProxies();
+            //optionsBuilder.UseSqlServer("Server=DESKTOP-0PQOEBL\\SQL2016;Database=S10_DB;Integrated Security=true;TrustServerCertificate=true")
+            //    .UseLazyLoadingProxies();
         }
     }
 }

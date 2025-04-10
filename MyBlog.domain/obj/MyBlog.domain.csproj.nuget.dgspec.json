@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {}
+    "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {}
   },
   "projects": {
-    "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {
+    "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
+        "projectUniqueName": "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
         "projectName": "MyBlog.domain",
-        "projectPath": "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
+        "projectPath": "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\BlogAsp.netMVC\\MyBlog.domain\\obj\\",
+        "outputPath": "D:\\BlogAsp.netMVC\\MyBlog.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
             },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",

@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MyBlog.core.Services;
+using MyBlog.domain.Models;
 using MyBlog.infrastructure;
 using MyBlog.infrastructure.Repositories;
 
@@ -12,11 +14,19 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("con")
     ));
 
+// add identity 
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
+
+
+
+builder.Services.AddScoped(typeof(IUnitOfWork),typeof(UintOfWork));  // core 
 builder.Services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
+builder.Services.AddScoped(typeof(IPostRepo),typeof(PostRepo));
 // one object for one requests of the same type
 builder.Services.AddScoped<PostServices>();
 builder.Services.AddScoped<CategoryServices>();
-builder.Services.AddScoped(typeof(IPostRepo),typeof(PostRepo));
 // new object for each request
 //builder.Services.AddTransient<PostServices>();
 // one object for all requests

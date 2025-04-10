@@ -3,6 +3,7 @@ using MyBlog.core.Services;
 using MyBlog.domain.Models;
 using MyBlog.domain.ViewModels;
 using MyBlog.infrastructure.Helpers;
+using MyBlog.infrastructure.Repositories;
 using System.Linq.Expressions;
 
 namespace MyBlog.web.Controllers
@@ -11,14 +12,16 @@ namespace MyBlog.web.Controllers
     {
         private readonly PostServices _PostServices;
         private readonly CategoryServices _CategoryServices;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly string[] _AlloerdExtenions = [".jpg",".png",".gif",".jpeg"];
         private readonly IWebHostEnvironment _webHost;
 
-        public PostController(PostServices postServices, CategoryServices categoryServices, IWebHostEnvironment webHost)
+        public PostController(PostServices postServices, CategoryServices categoryServices, IWebHostEnvironment webHost,IUnitOfWork unitOfWork)
         {
             _PostServices = postServices;
             _CategoryServices = categoryServices;
             _webHost = webHost;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<IActionResult> Posts(int? categoryId)
@@ -32,7 +35,8 @@ namespace MyBlog.web.Controllers
                 return View(postsData);
             }
 
-
+            // commit    => ok 
+            // rollback  => error 
 
 
             //var posts = await _PostServices.GetAllPostsAsync();
@@ -115,7 +119,30 @@ namespace MyBlog.web.Controllers
             return View(nameof(AllPosts), posts);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> EditWithTransaction(Post post)
+        {
+            // start transaction
+            await _unitOfWork.BeginTransactionAsync();
+            try
+            {
+                await _PostServices.UpdatePostAsync(post);
+                await _unitOfWork.ComplteAsync();
 
+
+                await _unitOfWork.CommitTransactionAsync();
+                var posts = await _PostServices.GetAllPostsAsync();
+                return View(nameof(AllPosts), posts);
+
+            }
+            catch (Exception ex)
+            {
+                await _unitOfWork.RollbackTransactionAsync();
+                // log error
+                Console.WriteLine(ex.Message);
+                throw;
+            }
+        }
         public async Task<IActionResult> Details(int id)
         {
             var post = await _PostServices.GetPostAsync(id);

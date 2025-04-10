@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj": {}
+    "D:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {
+    "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
+        "projectUniqueName": "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
         "projectName": "MyBlog.domain",
-        "projectPath": "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
+        "projectPath": "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\BlogAsp.netMVC\\MyBlog.domain\\obj\\",
+        "outputPath": "D:\\BlogAsp.netMVC\\MyBlog.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[5.3.0, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -79,14 +83,14 @@
         }
       }
     },
-    "E:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj": {
+    "D:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj",
+        "projectUniqueName": "D:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj",
         "projectName": "MyBlog.infrastructure",
-        "projectPath": "E:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj",
+        "projectPath": "D:\\BlogAsp.netMVC\\MyBlog.infrastructure\\MyBlog.infrastructure.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\BlogAsp.netMVC\\MyBlog.infrastructure\\obj\\",
+        "outputPath": "D:\\BlogAsp.netMVC\\MyBlog.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {
-                "projectPath": "E:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj"
+              "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj": {
+                "projectPath": "D:\\BlogAsp.netMVC\\MyBlog.domain\\MyBlog.domain.csproj"
               }
             }
           }
@@ -129,6 +133,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.8, )"
