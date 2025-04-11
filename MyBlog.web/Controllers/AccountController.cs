@@ -20,7 +20,7 @@ namespace MyBlog.web.Controllers
         public IActionResult Register()  => View();
 
         // post => register user
-
+        [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if(! ModelState.IsValid) 
@@ -57,6 +57,28 @@ namespace MyBlog.web.Controllers
 
 
         // login
+        public async Task<IActionResult> Login() => View();
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Posts", "Post");
+            }
+            ModelState.AddModelError("Email","Email or Password is invalid");
+            return View(model);
+        }
+
         // logout
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login", "Account");
+        }
+
     }
 }
