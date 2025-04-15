@@ -1,0 +1,45 @@
+﻿@model IEnumerable<User>
+
+
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<div class="container my-4">
+    <h2>Users in my system</h2>
+
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>User Id</th>
+                <th>User Name</th>
+                <th>Full Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.UserName</td>
+                    <td>@user.FullName</td>
+                    <td>
+                        <a asp-action="AsignRoleToUser" asp-route-userId="@user.Id" class="btn btn-warning btn-sm" >
+                            <i class="bi bi-pencil"></i>
+                        </a>
+                    </td>
+                </tr>
+
+            }
+    </tbody>
+</table>
+
+
+</div>
+
+
+
+

@@ -37,6 +37,7 @@ namespace MyBlog.web.Controllers
 
             if (result.Succeeded)
             {
+                //await _userManager.AddToRoleAsync(user, "User");
                 // sign in user automatically
                 await _signInManager.SignInAsync(user, isPersistent:false);
                 return RedirectToAction("Posts", "Post");

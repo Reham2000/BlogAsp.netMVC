@@ -6,6 +6,8 @@
 @if (_signInManagr.IsSignedIn(User))
 {
     // Login
+    <a asp-action="Users" asp-controller="Role" class="btn">Users</a>
+    <a asp-action="Roles" asp-controller="Role" class="btn">Roles</a>
 
     <form asp-action="Logout" asp-controller="Account" >
         <button type="submit" class="btn">Logout</button>
