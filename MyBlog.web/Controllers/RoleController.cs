@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyBlog.domain.Models;
 using MyBlog.domain.ViewModels;
+using Newtonsoft.Json;
 
 namespace MyBlog.web.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class RoleController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -132,7 +135,47 @@ namespace MyBlog.web.Controllers
         }
 
         // post method
+        [HttpPost]
+        public async Task<IActionResult> AsignRoleToUser(string userId,string jsonRoles)
+        {
+            // get user by id
+            var user = await _userManager.FindByIdAsync(userId);
+            
+            if (string.IsNullOrWhiteSpace(jsonRoles))
+            {
+                ModelState.AddModelError("Role", "Please select at least one role");
+                return RedirectToAction("AsignRoleToUser", new { userId = userId });
+            }
+            List<RoleViewModel> MyRoles = JsonConvert.DeserializeObject<List<RoleViewModel>>(jsonRoles);
+            if(user is not null )
+            {
+                // get all user roles
+                var userRoles = await _userManager.GetRolesAsync(user);
+                foreach(var role in MyRoles)
+                {
+                    // check if the role is exist in the user roles but not selected in the view
+                    // remove the role from the user
+                    // check if user has this role             ! false 
+                    if (userRoles.Contains(role.RoleName.Trim()) && !role.UserRole)
+                    {
+                        // delete old role
+                        await _userManager.RemoveFromRoleAsync(user, role.RoleName.Trim());
+                    }
+                    // check if the role is not exist in the user roles but selected in the view
+                    // add the role to the user
+                    if(!userRoles.Contains(role.RoleName.Trim()) && role.UserRole)
+                    {
+                        // add new role
+                        await _userManager.AddToRoleAsync(user, role.RoleName.Trim());
+                    }
+                }
+                return RedirectToAction("Users");
+            }
+            ModelState.AddModelError("Role", "User not found");
+            return RedirectToAction("AsignRoleToUser", new { userId = userId });
 
+
+        }
 
 
     }
